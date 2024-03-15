@@ -314,7 +314,6 @@ GameObject:
   - component: {fileID: 1966544779}
   - component: {fileID: 1966544778}
   - component: {fileID: 1966544777}
-  - component: {fileID: 1966544776}
   - component: {fileID: 1966544775}
   m_Layer: 0
   m_Name: Cube
@@ -335,19 +334,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f15e48e3844b4a43a07b6cea082fe91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1966544776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1966544774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e047f4e517a23cc4a849009bf1573465, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 2060844804}
 --- !u!114 &1966544777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -452,6 +438,7 @@ GameObject:
   - component: {fileID: 2060844802}
   - component: {fileID: 2060844801}
   - component: {fileID: 2060844800}
+  - component: {fileID: 2060844805}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -471,7 +458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f68625f67fa4f244b4ae73a39c990a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 19
+  speed: 10
 --- !u!135 &2060844801
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -550,3 +537,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2060844805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060844799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e047f4e517a23cc4a849009bf1573465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1966544781}
